@@ -312,23 +312,23 @@
 	border-radius: 50%;
 	width: 44px;
 	height: 44px;
-	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.team-socials__list:nth-child(1) {
-	background-image: url(../image/insta2.svg);
+.team-socials__list:hover {
+	background-color: var(--accent-color);
 }
 
-.team-socials__list:nth-child(2) {
-	background-image: url(../image/twit2.svg);
+.team-social__page--link {
+	width: 20px;
+	height: 20px;
+	fill: #afb1b8;
 }
 
-.team-socials__list:nth-child(3) {
-	background-image: url(../image/face2.svg);
-}
-
-.team-socials__list:nth-child(4) {
-	background-image: url(../image/link2.svg);
+.team-social__page--link:hover {
+	fill: var(--primary-white-color);
 }
 
 /* clients */
@@ -362,6 +362,16 @@
 	list-style: none;
 	padding: 0;
 	margin: 0;
+}
+
+.regular-clients__icon--client1 {
+	fill: #afb1b8;
+	width: 44.27px;
+	height: 49.23px;
+}
+
+.regular-clients__icon--client1:hover {
+	fill: var(--accent-color);
 }
 
 .regular-clients__item:not(:last-child) {

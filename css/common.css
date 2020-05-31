@@ -132,6 +132,16 @@ img {
 	color: var(--accent-color);
 }
 
+.contact-us__icon--mail {
+	width: 16px;
+	height: 11.2px;
+}
+
+.contact-us__icon--phone {
+	width: 10px;
+	height: 14.94px;
+}
+
 /* footer */
 .footer {
 	background-color: var(--footer-fon-color);
