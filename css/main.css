@@ -1,5 +1,17 @@
 .section-hero {
-	/* background-color: var(--title-text-color); */
+	max-width: 1600px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: linear-gradient(
+			rgba(47, 48, 58, 0.8),
+			rgba(47, 48, 58, 0.8)
+		),
+		url(../image/Header_after.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: var(--footer-fon-color);
 }
 
 .hero {
@@ -14,15 +26,6 @@
 	width: 1200px;
 	outline: 2px solid tomato;
 	text-align: center;
-}
-
-.section-hero {
-	max-width: 1600px;
-	height: 600px;
-	background-image: url(../image/Header_after.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-color: rgba(47, 48, 58, 0.8);
 }
 
 .hero__title {
@@ -91,6 +94,33 @@
 	list-style: none;
 	margin: 0;
 	padding: 0;
+}
+
+.characteristics-descr__item::before {
+	display: block;
+	content: "";
+	height: 120px;
+	/* background-image: url(../image/sputnik.svg); */
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: var(--second-fon-color);
+	margin-bottom: 30px;
+}
+
+.characteristics-descr__item:nth-child(1)::before {
+	background-image: url(../image/sputnik.svg);
+}
+
+.characteristics-descr__item:nth-child(2)::before {
+	background-image: url(../image/clock.svg);
+}
+
+.characteristics-descr__item:nth-child(3)::before {
+	background-image: url(../image/comp.svg);
+}
+
+.characteristics-descr__item:nth-child(4)::before {
+	background-image: url(../image/technology.svg);
 }
 
 .characteristics-descr__item {
@@ -265,10 +295,40 @@
 	list-style: none;
 	padding: 0;
 	margin: 0;
+	align-items: center;
+	justify-content: center;
 }
 
 .team-socials__list:not(:last-child) {
 	margin-right: 6px;
+}
+
+.team-socials__list {
+	content: "";
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: var(--primary-white-color);
+	border-radius: 50%;
+	width: 44px;
+	height: 44px;
+	display: block;
+}
+
+.team-socials__list:nth-child(1) {
+	background-image: url(../image/insta2.svg);
+}
+
+.team-socials__list:nth-child(2) {
+	background-image: url(../image/twit2.svg);
+}
+
+.team-socials__list:nth-child(3) {
+	background-image: url(../image/face2.svg);
+}
+
+.team-socials__list:nth-child(4) {
+	background-image: url(../image/link2.svg);
 }
 
 /* clients */

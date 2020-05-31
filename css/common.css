@@ -232,10 +232,45 @@ img {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	height: 44px;
 }
 
 .add-sotial-site__item:not(:last-child) {
 	margin-right: 11px;
+}
+
+.add-sotial-site__item {
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 50%;
+	width: 44px;
+	display: block;
+}
+
+.add-sotial-site__item:nth-child(1) {
+	background-image: url(../image/instagram.svg);
+	background-position: center;
+}
+
+.add-sotial-site__item:nth-child(2) {
+	background-image: url(../image/twitter.svg);
+	background-position: center;
+}
+
+.add-sotial-site__item:nth-child(3) {
+	background-image: url(../image/facebook.svg);
+	background-position: center;
+}
+
+.add-sotial-site__item:nth-child(4) {
+	background-image: url(../image/linkedin.svg);
+	background-position: center;
+}
+
+.add-sotial-site__item:hover {
+	background-color: var(--accent-color);
 }
 
 .sign__title {
@@ -281,8 +316,12 @@ img {
 }
 
 .sign-link__button {
-	display: inline-block;
-	padding: 10px 62px 10px 29px;
+	display: inline-flex;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 29px;
+	cursor: pointer;
+
 	min-width: 200px;
 	height: 50px;
 	border-radius: 4px;
@@ -294,6 +333,15 @@ img {
 	letter-spacing: 0.06em;
 	align-items: center;
 	text-align: center;
+}
+
+.sign-link__button::after {
+	width: 24px;
+	height: 24px;
+	content: "";
+	background-image: url(../image/send.svg);
+	background-size: contain;
+	margin-left: 10px;
 }
 
 .copyright {
