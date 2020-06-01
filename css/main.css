@@ -262,6 +262,7 @@
 }
 
 .team-list__item {
+	background-color: var(--primary-white-color);
 	width: calc((100% - 90px) / 4);
 	text-align: center;
 	padding-bottom: 24px;
@@ -318,7 +319,6 @@
 	cursor: pointer;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-color: var(--primary-white-color);
 	border-radius: 50%;
 	width: 44px;
 	height: 44px;
