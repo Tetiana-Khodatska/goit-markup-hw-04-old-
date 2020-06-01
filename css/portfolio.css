@@ -41,6 +41,7 @@
 .button__item:focus {
 	color: var(--primary-white-color);
 	background-color: var(--accent-color);
+	cursor: pointer;
 }
 
 .project-list {
@@ -51,9 +52,10 @@
 	padding: 0;
 }
 
-.project-list__item {
+.project-list__item:hover {
 	box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
 		0px 1px 1px rgba(0, 0, 0, 0.12);
+	cursor: pointer;
 }
 
 .project-list__item:not(:nth-child(3n)) {

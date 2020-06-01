@@ -370,7 +370,37 @@
 	height: 49.23px;
 }
 
-.regular-clients__icon--client1:hover {
+.regular-clients__icon--client2 {
+	fill: #afb1b8;
+	width: 40px;
+	height: 52px;
+}
+
+.regular-clients__icon--client3 {
+	fill: #afb1b8;
+	width: 41px;
+	height: 42.6px;
+}
+
+.regular-clients__icon--client4 {
+	fill: #afb1b8;
+	width: 79.66px;
+	/* height: 42.02px; */
+}
+
+.regular-clients__icon--client5 {
+	fill: #afb1b8;
+	width: 59px;
+	height: 47px;
+}
+
+.regular-clients__icon--client6 {
+	fill: #afb1b8;
+	width: 88.48px;
+	/* height: 45.44px; */
+}
+
+.regular-clients__item svg:hover {
 	fill: var(--accent-color);
 }
 

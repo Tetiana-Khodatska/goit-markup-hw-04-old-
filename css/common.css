@@ -112,7 +112,8 @@ img {
 
 .contact-us__link {
 	text-decoration: none;
-	display: block;
+	display: flex;
+	align-items: center;
 	padding-top: 32px;
 	padding-bottom: 32px;
 	color: var(--title-text-color);
@@ -135,11 +136,17 @@ img {
 .contact-us__icon--mail {
 	width: 16px;
 	height: 11.2px;
+	margin-right: 10px;
 }
 
 .contact-us__icon--phone {
 	width: 10px;
 	height: 14.94px;
+	margin-right: 10px;
+}
+
+.contact-us__item:hover {
+	fill: var(--accent-color);
 }
 
 /* footer */
