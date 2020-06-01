@@ -97,52 +97,56 @@
 }
 
 .characteristics-descr__item::before {
-	display: block;
-	content: "";
-	height: 120px;
-	/* background-image: url(../image/sputnik.svg); */
-	background-repeat: no-repeat;
-	background-position: center;
-	background-color: var(--second-fon-color);
-	margin-bottom: 30px;
+	/* display: block; */
+	/* content: ""; */
+	/* height: 120px; */
+	
+	/* background-repeat: no-repeat; */ */
+	/* background-position: center; */
+	/* background-color: var(--second-fon-color); */ */
+	/* margin-bottom: 30px; */
 }
 
 .characteristics-descr__item:nth-child(1)::before {
-	background-image: url(../image/sputnik.svg);
+	/* background-image: url(../image/sputnik.svg); */
 }
 
 .characteristics-descr__item:nth-child(2)::before {
-	background-image: url(../image/clock.svg);
+	/* background-image: url(../image/clock.svg); */
 }
 
 .characteristics-descr__item:nth-child(3)::before {
-	background-image: url(../image/comp.svg);
+	/* background-image: url(../image/comp.svg); */
 }
 
 .characteristics-descr__item:nth-child(4)::before {
-	background-image: url(../image/technology.svg);
+	/* background-image: url(../image/technology.svg); */
 }
 
 .characteristics-descr__item {
-	display: inline-block;
+	display: block;
 	width: calc((100% - 90px) / 4);
+	height: 251px;
+	
+	align-items: center;
+	justify-content: center;
 }
 
 .characteristics-descr__item:not(:last-child) {
 	margin-right: 30px;
 }
 
-.characteristics-descr__icon {
-	margin-bottom: 30px;
+
+.characterictics-descr__icon {
 	width: 270px;
 	height: 120px;
+	margin: auto;
+	display: flex;
+	margin-bottom: 30px;
+	align-items: center;
+	justify-content: center;
 	border-radius: 4px;
 	background-color: var(--second-fon-color);
-}
-
-.characteristics-descr__icon:hover,
-.characteristics-descr__icon:focus {
-	/* background-color: var(--accent-color); */
 }
 
 .characteristics-descr__name {
