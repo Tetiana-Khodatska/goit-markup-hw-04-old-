@@ -379,34 +379,8 @@
 	margin: 0;
 }
 
-.regular-clients__icon--client1 {
+.regular-clients__icon--client {
 	fill: currentColor;
-	width: 44.27px;
-	height: 49.23px;
-}
-
-.regular-clients__icon--client2 {
-	fill: currentColor;
-	width: 40px;
-	height: 52px;
-}
-
-.regular-clients__icon--client3 {
-	fill: currentColor;
-	width: 41px;
-	height: 42.6px;
-}
-
-.regular-clients__icon--client4 {
-	fill: currentColor;
-	width: 79.66px;
-	/* height: 42.02px; */
-}
-
-.regular-clients__icon--client5 {
-	fill: currentColor;
-	width: 59px;
-	height: 47px;
 }
 
 .regular-clients__icon--client6 {
